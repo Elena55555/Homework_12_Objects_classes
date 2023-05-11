@@ -1,7 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println("Домашняя работа № 12");
+
         System.out.println("Задание № 1");
 
         System.out.println(" ");
@@ -28,9 +30,10 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Изменяем год публикации с помощью сеттера");
-
         book.setYearOfPublication(1864);
         System.out.println("book.getYearOfPublication() = " + book.getYearOfPublication());
+
+        System.out.println(" ");
 
         System.out.println("Задание № 2");
 
@@ -51,10 +54,6 @@ public class Main {
         Author author3 = new Author("Федор", "Достоевский" );
         System.out.println("author3.name = " + author3.getName());
         System.out.println("author3.surname = " + author3.getSurname());
-
-
-
-
 
     }
 }
